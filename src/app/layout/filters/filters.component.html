@@ -1,0 +1,37 @@
+<div class="filter-title">Filtros</div>
+
+<div class="sections pos-common-tweaks">
+  <label class="switch-labels">Profesionales</label>
+  <p-inputSwitch [(ngModel)]="onlyProf"></p-inputSwitch>
+</div>
+
+<div class="sections pos-common-tweaks">
+  <label class="switch-labels">Ofertas</label>
+  <p-inputSwitch [(ngModel)]="onlyOffers"></p-inputSwitch>
+</div>
+
+<div class="col sections">
+  Zonas:
+  <div class="row">
+    <div class="col" *ngFor="let eachZone of zones">
+      <div class="pos-common-tweaks">
+        <p-checkbox name="groupname" value="{{eachZone}}" [(ngModel)]="selectedZones"></p-checkbox>
+        <label class="item-label">{{eachZone}}</label>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col sections">
+  Habilidades:
+  <div class="row">
+    <div class="col" *ngFor="let eachAbilitie of abilities">
+      <div class="pos-common-tweaks">
+        <p-checkbox name="groupname" value="{{eachAbilitie}}" [(ngModel)]="selectedAbilities"></p-checkbox>
+        <label class="item-label">{{eachAbilitie}}</label>
+      </div>
+    </div>
+  </div>
+</div>
+
+
