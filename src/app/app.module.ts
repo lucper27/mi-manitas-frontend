@@ -11,6 +11,7 @@ import { OfferListComponent } from './entities/offer/offer-list/offer-list.compo
 import { ProfessionalDetailComponent } from './entities/professional/professional-detail/professional-detail.component';
 import { ProfessionalListComponent } from './entities/professional/professional-list/professional-list.component';
 import {OfferDetailComponent} from "./entities/offer/offer-detail/offer-detail.component";
+import { CardComponent } from './layout/card/card.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {OfferDetailComponent} from "./entities/offer/offer-detail/offer-detail.c
     OfferDetailComponent,
     OfferListComponent,
     ProfessionalDetailComponent,
-    ProfessionalListComponent
+    ProfessionalListComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

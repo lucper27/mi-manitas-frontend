@@ -1,9 +1,21 @@
 .nav-tweaks{
   background-color: #31452C;
   padding: 10px;
-  .nav-item {
-    .nav-link {
-      color: #FEFEFE;
-    }
+  .item-pos {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+
+  }
+  .item-tweaks {
+    color: #FEFEFE;
+    padding: 10px;
+  }
+  .item-tweaks:hover {
+    border: 1px solid #CD760F;
+  }
+
+  .img-tweaks {
+    width: 100px;
   }
 }
