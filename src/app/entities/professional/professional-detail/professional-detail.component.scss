@@ -1,0 +1,52 @@
+
+
+@media screen and (orientation: landscape)  and (min-width: 1024px) {/*desde 1024px*/
+
+  .frontImgTweaks {
+    width: 100%;
+    height: 300px;
+  }
+  .details-container {
+    margin-top:85px;
+
+    .txt-test {
+      color: blue;
+    }
+  }
+}
+
+@media screen and (orientation: landscape) and (max-width: 1024px) {/*hasta 1024px*/
+
+  .frontImgTweaks {
+    width: 100%;
+    height: 200px;
+  }
+  .details-container {
+    margin-top:85px;
+
+    .txt-test {
+      color: red;
+    }
+  }
+}
+
+@media screen and (orientation: portrait) and (max-width: 1024px) { /*hasta 1024px*/
+  .frontImgTweaks {
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+  }
+  .details-container {
+    margin-top:85px;
+
+    .txt-test {
+      color: red;
+    }
+  }
+}
+
+
+
+
+
+
